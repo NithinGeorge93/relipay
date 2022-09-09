@@ -218,11 +218,11 @@
     }
 
     #carouselExampleCaptions .carousel-control-next {
-        top: 33%;
+        top: 38%;
     }
 
     #carouselExampleCaptions .carousel-control-prev {
-        top: 67%;
+        top: 52%;
     }
 
     .btn-relipay:focus,
