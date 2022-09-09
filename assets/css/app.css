@@ -217,6 +217,14 @@
         bottom: 15px;
     }
 
+    #carouselExampleCaptions .carousel-control-next {
+        top: 33%;
+    }
+
+    #carouselExampleCaptions .carousel-control-prev {
+        top: 67%;
+    }
+
     .btn-relipay:focus,
     .btn-relipay:hover,
     .btn-relipay {
