@@ -254,6 +254,10 @@
     #carouselExampleCaptions .carousel-control-next {
         top: 23%;
     }
+
+    #carouselExampleCaptions .carousel-control-prev {
+        top: 57%;
+    }
 }
 
 /* .swiper {
