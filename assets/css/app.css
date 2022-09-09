@@ -199,6 +199,10 @@
         margin-right: 0 !important;
     }
 
+    .check-btn-slide .swiper-slide {
+        width: 90px;
+    }
+    
     .service {
         background-color: transparent;
         box-shadow: none;
