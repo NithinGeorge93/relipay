@@ -1,0 +1,244 @@
+.bg-image {
+    background-image: url("/assets/images/Vector Smart Object.png");
+    /* height: 440px; */
+}
+
+#carouselExampleCaptions .carousel-control-prev,
+#carouselExampleCaptions .carousel-control-next {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    right: -15px;
+    opacity: 1;
+    color: #0479ad;
+}
+
+#carouselExampleCaptions .carousel-control-next {
+    top: 43%;
+    transform: translateY(-50%);
+}
+
+#carouselExampleCaptions .carousel-control-prev {
+    top: 57%;
+    transform: translateY(-50%);
+    left: initial;
+}
+
+#carouselExampleCaptions .carousel-indicators button {
+    border: 1px solid #0479ad;
+    width: 7px;
+    height: 7px;
+}
+
+#carouselExampleCaptions .carousel-indicators button.active {
+    background-color: #0479ad;
+}
+
+.update-h {
+    background-color: #33ab51;
+    color: #fff;
+}
+
+.check-btn-slide .swiper-slide {
+    width: 90px;
+    text-align: center;
+}
+
+.swiper .dropdown-menu {
+    left: 50% !important;
+    transform: translate(-50%, 50px) !important;
+    padding: 0;
+    width: 175px;
+    background-color: #0077ac;
+    color: #fff;
+    position: relative;
+}
+
+.triangle::before {
+    content: "" !important;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+
+    border-bottom: 5px solid #0077ac;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.swiper .dropdown-menu ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.swiper .fa-square {
+    color: #dbdbdb;
+    transform: rotate(45deg);
+}
+
+.dropdown a::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.swiper .dropdown a,
+.swiper .dropdown a p {
+    color: #666666;
+    text-decoration: none;
+}
+
+.swiper a:focus-visible {
+    outline: none;
+    border: 0;
+}
+
+.dropdown-txt {
+    font-size: 10px;
+}
+
+.swiper .dropdown a[aria-expanded="true"] i,
+.swiper .dropdown a[aria-expanded="true"] p {
+    color: #0077ac;
+}
+
+.swiper embed.filter image,
+.swiper embed.filter {
+    filter: invert(26%) sepia(24%) saturate(7082%) hue-rotate(179deg) brightness(98%) contrast(101%);
+}
+
+.bg-ash {
+    background-color: #f0f2f2;
+}
+
+.service p {
+    font-size: 14px;
+}
+
+.service {
+    box-shadow: 3.355px 2.179px 16.56px 1.44px rgba(51, 51, 51, 0.18);
+}
+
+.service .scale:hover {
+    transform: scale(1.2);
+    background-color: #0077ac !important;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.service .scale:hover p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.service .scale:hover img {
+    filter: invert(100%) sepia(0%) saturate(4022%) hue-rotate(334deg) brightness(108%) contrast(100%);
+}
+
+.swiper-android .swiper-slide,
+.swiper-wrapper {
+    transform: translate3d(-9px, 0px, 0px);
+}
+
+.bg-blue {
+    background-color: #0077ac;
+}
+
+.bg-blue a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-relipay:focus,
+.btn-relipay {
+    background-color: #0077ac;
+    color: #fff !important;
+    box-shadow: none;
+    min-width: 100px;
+}
+
+.btn-relipay:focus,
+.btn-relipay:hover {
+    border: 1px solid #0077ac;
+    background-color: #fff;
+    color: #0077ac !important;
+}
+
+#carouselExampleCaptions .carousel-item {
+    background-image: url("/assets/images/Banner-2.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.service {
+    background-color: #fff;
+}
+
+.service-h {
+    color: #0077ac;
+    font-weight: 700;
+}
+
+@media (max-width: 992px) {
+    #navbarTogglerDemo01 {
+        margin-top: 10px;
+    }
+
+    #carouselExampleCaptions {
+        padding-bottom: 20px;
+        margin-right: 0 !important;
+    }
+
+    .service {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .carousel-indicators {
+        bottom: 15px;
+    }
+
+    .btn-relipay:focus,
+    .btn-relipay:hover,
+    .btn-relipay {
+        width: 100%;
+        background-color: #fff;
+        color: #000 !important;
+        text-align: left;
+        border: 0;
+        border-radius: 0 !important;
+    }
+
+    .scale {
+        margin-bottom: 10px;
+        box-shadow: 3.355px 2.179px 16.56px 1.44px rgb(51 51 51 / 18%);
+    }
+
+    .service .scale:hover {
+        transform: initial !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel-indicators {
+        bottom: 10px;
+    }
+
+    #carouselExampleCaptions .carousel-control-next {
+        top: 23%;
+    }
+}
+
+/* .swiper {
+    overflow: inherit;
+} */
