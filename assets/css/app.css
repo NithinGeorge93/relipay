@@ -140,8 +140,8 @@
     font-size: 12px;
 }
 
-.service .scale:hover img {
-    filter: invert(100%) sepia(0%) saturate(4022%) hue-rotate(334deg) brightness(108%) contrast(100%);
+.service .scale:hover embed {
+    filter: brightness(0) invert(1);
 }
 
 .swiper-android .swiper-slide,
