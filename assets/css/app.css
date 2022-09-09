@@ -8,6 +8,12 @@
     color: #0479ad;
 }
 
+#carouselExampleCaptions .carousel-control-prev:hover,
+#carouselExampleCaptions .carousel-control-next:hover {
+    background-color: #0479ad;
+    color: #fff;
+}
+
 #carouselExampleCaptions .carousel-control-next {
     top: 43%;
     transform: translateY(-50%);
@@ -197,7 +203,7 @@
     .check-btn-slide .swiper-slide {
         width: 90px;
     }
-    
+
     .service {
         background-color: transparent;
         box-shadow: none;
