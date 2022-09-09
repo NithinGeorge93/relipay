@@ -164,7 +164,7 @@
 }
 
 #carouselExampleCaptions .carousel-item {
-    background-image: url("/assets/images/Banner-2.png");
+    background-image: url("https://nithingeorge93.github.io/relipay/assets/images/Banner-2.png");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
