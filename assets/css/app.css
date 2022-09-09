@@ -40,6 +40,10 @@
     color: #fff;
 }
 
+.update-h h2 {
+    font-size: 26px;
+}
+
 .check-btn-slide .swiper-slide {
     width: 6.3%;
     text-align: center;
